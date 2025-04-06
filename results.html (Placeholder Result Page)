@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your DateCrate Match</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Perfect Date Awaits!</h1>
+    <p>Based on your answers, we’ve found your ideal DateCrate.</p>
+  </header>
+  <main>
+    <p>(This is a placeholder. Real results will be dynamically generated.)</p>
+  </main>
+</body>
+</html>
