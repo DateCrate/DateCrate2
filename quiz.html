@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz | DateCrate</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Let's Match Your Perfect Date</h1>
+    <p>Answer a few questions to get a custom DateCrate!</p>
+  </header>
+  <form action="results.html" method="GET" class="quiz-form">
+    <h2>1. What's your ideal date vibe?</h2>
+    <label><input type="checkbox" name="vibe" value="relaxed"> Chill & Cozy</label>
+    <label><input type="checkbox" name="vibe" value="active"> Active & Adventurous</label>
+    <label><input type="checkbox" name="vibe" value="fancy"> Fancy & Luxurious</label>
+
+    <h2>2. Dietary preferences or allergies?</h2>
+    <label><input type="checkbox" name="diet" value="vegan"> Vegan</label>
+    <label><input type="checkbox" name="diet" value="vegetarian"> Vegetarian</label>
+    <label><input type="checkbox" name="diet" value="gluten-free"> Gluten-Free</label>
+    <label><input type="checkbox" name="diet" value="nuts"> Nut Allergy</label>
+
+    <h2>3. Any religious restrictions on food?</h2>
+    <label><input type="radio" name="religion" value="halal"> Halal</label>
+    <label><input type="radio" name="religion" value="kosher"> Kosher</label>
+    <label><input type="radio" name="religion" value="none"> None</label>
+
+    <h2>4. What’s your budget per date?</h2>
+    <label><input type="radio" name="budget" value="low"> Under £20</label>
+    <label><input type="radio" name="budget" value="medium"> £20 - £50</label>
+    <label><input type="radio" name="budget" value="high"> £50+</label>
+
+    <h2>5. Are you open to surprises?</h2>
+    <label><input type="radio" name="surprise" value="yes"> Absolutely</label>
+    <label><input type="radio" name="surprise" value="maybe"> Maybe a little</label>
+    <label><input type="radio" name="surprise" value="no"> I like full control</label>
+
+    <button type="submit">Get My DateCrate</button>
+  </form>
+</body>
+</html>
